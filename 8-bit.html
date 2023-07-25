@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* html {
+            height: 100%;
+        }
+
+        body {
+            background-image: url(image/8bit-rabbit.gif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        } */
+        .html, body{
+            background-color: #f0fcfc;
+        }
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+            left:10%;
+        }
+        .bg img {
+            min-height: 100%;
+            min-width: 80%;
+            width: 80%;
+            
+        }
+        @keyframes typing { from { width: 0; } }
+        @keyframes blink-caret { 50% { border-color: transparent; } }
+
+        .txt a{
+            text-decoration: none;
+            left:0;
+        }
+        .txt h1 {
+            font: bold 1000% Consolas, Monaco, monospace;
+            border-right: .1em solid;
+            width: 16.5em; /* fallback */
+            /* width: 30ch; # of chars */
+            margin: 2em 1em;
+            background-color: rgba(27, 27, 27);
+            opacity: .9;
+            color: aliceblue;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 7s steps(16, end), /* # of steps = # of chars */    /*animation: typing 20s steps(30, end),*//*英文速度*/
+
+            blink-caret .5s step-end infinite alternate;
+        }
+      
+
+         /* @media screen and (max-width: 1000px) {
+            img.bg {
+                left: 50%;
+                margin-left: -500px;
+            }  */
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="bg">
+        <img src="image/8-bit-rabbit.gif">
+    </div>
+    <div class="txt">
+
+        <a  href="guide-page.html "><h1> HELLO ➤</h1></a>
+        
+    
+    </div>
+   
+ 
+
+
+
+
+
+
+</body>
+
+</html>
